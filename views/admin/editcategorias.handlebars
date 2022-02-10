@@ -1,0 +1,14 @@
+<div class="card">
+  <div class="card-body">
+   <form action="/categorias/editar" method="POST">
+<input type="hidden" name="id" id="id" value="{{cadastros.id}}">
+
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome"  placeholder="Nome" class="form-control" value="{{cadastros.nome}}">
+<label for="nome">CPF:</label>
+<input type="text" id="cpf" name="cpf" placeholder="CPF" class="form-control" value="{{cadastros.cpf}}"> 
+<br>
+<button class="btn btn-success" type="submit">Editar</button>
+</form>
+  </div>
+</div>
